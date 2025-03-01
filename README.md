@@ -17,5 +17,13 @@
 ## Установка
 1. Клонируйте репозиторий:
    ```bash
-   git clone <repository_url>
-   cd yolov8_people_detection
+   git clone https://github.com/Firelok45/People_detection
+   cd People_detection
+2. Создайте и активируйте виртуальное окружение:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/MacOS
+   venv\Scripts\activate     # Windows
+2. Установите зависимости:
+   ```bash
+   pip install -r requirements.txt # Устанавливаем зависисмости

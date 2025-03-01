@@ -13,7 +13,7 @@ from src.detector import PeopleDetector  # Теперь импорт будет 
 # Настройки
 CONFIDENCE_THRESHOLD = 0.4
 MODEL_PATH = "yolov8n.pt"
-INPUT_VIDEO = "input_video/crowd.mp4"
+INPUT_VIDEO = "input_video"
 OUTPUT_VIDEO = "output_video/output.mp4"
 
 if __name__ == "__main__":
