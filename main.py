@@ -11,8 +11,8 @@ from src.detector import PeopleDetector  # Теперь импорт будет 
 
 
 # Настройки
-CONFIDENCE_THRESHOLD = 0.4
-MODEL_PATH = "yolov8n.pt"
+CONFIDENCE_THRESHOLD = 0.4 # Уверенность распознавания
+MODEL_PATH = "yolov8n.pt" # Используемая модель
 INPUT_VIDEO = "input_video"
 OUTPUT_VIDEO = "output_video/output.mp4"
 
